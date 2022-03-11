@@ -22,4 +22,4 @@ RUN wget -qO - https://mirror.oxfordnanoportal.com/apt/ont-repo.pub | apt-key ad
 	echo "deb http://mirror.oxfordnanoportal.com/apt focal-stable non-free" | tee /etc/apt/sources.list.d/nanoporetech.sources.list && \
 	apt-get update
 
-RUN apt install -y ont-guppy-cpu=4.5.4-1~focal
+RUN apt install -y ont-guppy-cpu=6.0.6-1~focal
